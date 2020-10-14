@@ -10,6 +10,10 @@ public class TheatherLights {
 
     public void dimLights(Integer dim) {
         this.dim = dim; 
-     }
+    }
+
+    public Integer getDim(){
+        return this.dim;
+    }
 
 }

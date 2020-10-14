@@ -49,7 +49,7 @@ public class HomeTheaterFacade {
         popcornPopper.turnOff();
     }
 
-    public Amplifier getAmplifier() {
+    public Item getAmplifier() {
         return amplifier;
     }
 
